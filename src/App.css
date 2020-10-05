@@ -1,0 +1,22 @@
+.app {
+    display: grid;
+    place-items: center;
+    background-color: #E3F1FA;
+    height: 100vh;
+}
+
+.app__body {
+    display: flex;
+    border-radius: 20px;
+    background: #E3F1FA;
+    box-shadow:  29px 29px 57px #c1ced8, 
+                 -29px -29px 57px #f5ffff;
+    height: 90vh;
+    width: 90vw;
+    margin-top: -40px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: rgba(255, 255, 255, 0.0);
+}

@@ -1,0 +1,63 @@
+.sidebarNew__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarNew {
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #a9e7ff, #7fd0ff);
+box-shadow:  5px 5px 10px #86b8d5, 
+             -5px -5px 10px #b6f8ff;
+}
+
+
+.sidebarNew > h3 {
+    color: #6d869a;
+}
+
+.sidebarNew > h3:hover {
+    color: #E3F1FA;
+}
+
+.sidebarChat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: #E3F1FA;
+}
+
+a {
+    text-decoration: none !important;
+    color: #6d869a;
+}
+
+.sidebarChat:hover {
+    background-color: #f0f7fc;
+}
+
+.sidebarChat__info {
+    margin-left: 15px;
+    max-width: 15em;
+}
+
+.sidebarChat__info > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebarChat__info > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
